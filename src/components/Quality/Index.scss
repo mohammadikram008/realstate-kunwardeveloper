@@ -1,0 +1,38 @@
+.abt-pg {
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: -15px;
+}
+
+.img-quality{
+    width: 100%;
+    height: 500px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+}
+.heading-quality{
+    color: brown;
+}
+
+.footer-logo{
+    width: 20%;
+    margin-right: 40px;
+    margin-left: -200px;
+    margin-top: -15px;
+}
+.text-quality-parghrap{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media (max-width:700px){
+    .footer-logo{
+   display: flex;
+ 
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
